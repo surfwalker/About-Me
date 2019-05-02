@@ -6,7 +6,7 @@ console.log('The user\'s name is '+ userName);
 
 var answerOne = prompt('Guess this about me: have I ever surfed in Hawaii?').toUpperCase();
 
-if (answerOne === 'Y' || answerOne === 'YES'){
+if (answerOne === 'Y' || answerOne === 'YES') {
   alert('You\'re right, ' + userName + '! I have to admit though that I did not impress the locals.');
   console.log('User got the correct answer to #1');
 } else {
@@ -16,7 +16,7 @@ if (answerOne === 'Y' || answerOne === 'YES'){
 
 var answerTwo = prompt('Guess this about me: is my favorite color red?').toUpperCase();
 
-if (answerTwo === 'Y' || answerTwo === 'YES'){
+if (answerTwo === 'Y' || answerTwo === 'YES') {
   alert('Sorry, ' + userName + ', that is incorrect.');
   console.log('User got the incorrect answer to #2');
 } else {
@@ -26,7 +26,7 @@ if (answerTwo === 'Y' || answerTwo === 'YES'){
 
 var answerThree = prompt('Guess this about me: is my favorite food curry?').toUpperCase();
 
-if (answerThree === 'Y' || answerThree === 'YES'){
+if (answerThree === 'Y' || answerThree === 'YES') {
   alert('You\'re right, ' + userName + '! Although we have way more curry places in the UK than you typically find in the USA I have to admit that the best curry I\'ve ever had was at The Bombay Cricket Club in PDX.');
   console.log('User got the correct answer to #3');
 } else {
@@ -34,9 +34,9 @@ if (answerThree === 'Y' || answerThree === 'YES'){
   console.log('User got the incorrect answer to #3');
 }
 
-  var answerFour = prompt('Guess this about me: is my favorite hobby knitting?').toUpperCase();
+var answerFour = prompt('Guess this about me: is my favorite hobby knitting?').toUpperCase();
 
-if (answerFour === 'Y' || answerFour === 'YES'){
+if (answerFour === 'Y' || answerFour === 'YES') {
   alert('Sorry, ' + userName + ', that is incorrect. I am not a fan of knitting.');
   console.log('User got the incorrect answer to #4');
 } else {
@@ -46,7 +46,7 @@ if (answerFour === 'Y' || answerFour === 'YES'){
 
 var answerFive = prompt('Guess this about me: do I prefer dogs to cats?').toUpperCase();
 
-if (answerFive === 'Y' || answerFive === 'YES'){
+if (answerFive === 'Y' || answerFive === 'YES') {
   alert('You\'re right, ' + userName + '! I absolutely love dogs especially long haired border collies. My long haired border collie growing up back in Scotland was called Glen.');
   console.log('User got the correct answer to #5');
 } else {
