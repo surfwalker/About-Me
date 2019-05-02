@@ -13,7 +13,7 @@ function hawaii50() {
   } else {
     alert('Sorry, ' + userName + ', that is incorrect.');
     console.log('User got the incorrect answer to #1');
-  };
+  }
 };
 
 function faveColor() {
@@ -25,7 +25,7 @@ function faveColor() {
   } else {
     alert('You\'re right, ' + userName + '! My favorite color is actually blue as it reminds me of surfing in the ocean.');
     console.log('User got the correct answer to #2');
-  };
+  }
 };
 
 function faveFood() {
@@ -37,7 +37,7 @@ function faveFood() {
   } else {
     alert('Sorry, ' + userName + ', that is incorrect. I absolutely love curry.');
     console.log('User got the incorrect answer to #3');
-  };
+  }
 };
 
 function faveHobby() {
@@ -49,7 +49,7 @@ function faveHobby() {
   } else {
     alert('You\'re right, ' + userName + '! My favorite is woodworking.');
     console.log('User got the correct answer to #4');
-  };
+  }
 };
 
 function dogsOrCats() {
@@ -61,6 +61,11 @@ function dogsOrCats() {
   } else {
     alert('Sorry, ' + userName + ', that is incorrect. Cats are ok but not as cool as dogs.');
     console.log('User got the incorrect answer to #5');
-  };
+  }
 };
 
+hawaii50();
+faveColor();
+faveFood();
+faveHobby();
+dogsOrCats();
